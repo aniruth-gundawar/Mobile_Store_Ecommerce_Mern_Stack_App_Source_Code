@@ -1,0 +1,30 @@
+.card-body h4{
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.btn_div{
+    display: flex;
+ align-items: center;
+ 
+}
+.card{
+    margin-top: 10px;
+    text-align: start;
+}
+.btns{
+    margin-left: 10px !important;
+   
+    min-width: 7rem !important;
+
+}
+.btn{
+    height: 40px;
+}
+.category_form{
+    gap:20px;
+}
+.category_form input {
+    
+    width: 300px;
+} 

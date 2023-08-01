@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+:root {
+  --primary-text-color:#183b56;
+  --secondary-text-color:#577592;
+  --accent-color: #2294ed;
+   --accent-color-dark:#1d69a3;
+
+}
+
+html{
+  font-weight: 62.5%;
+  
+  scroll-behavior: smooth;
+}
+body{
+  margin: 0;
+  font-weight: 1.5rem;
+  
+  /* min-height: 100%; */
+   background-color: rgb(241,241,241);
+  /* background-color: rgb(236, 234, 230);  */
+   /* overflow-x: hidden; */
+  min-height: 1000px !important; 
+}
+.h_four{
+  color:#0F1111;
+  font-weight: 21px;
+}
+.navabar_css{
+  font-weight: 500;
+
+   background-color:white !important; 
+  /* background-color:#232F3E !important; */
+
+
+  
+}
+/* .nav_link_css{
+  color: #DDDDDD !important;
+} */
+.nav-link.active{
+   border-bottom: 0.05rem solid black;
+}
+
+ /* li {
+  font-size: 1.1rem;
+  color:#f0f8ff !important;
+} */
+
+.navbar-nav .nav-link:hover{
+  color:#2294ed;
+  transition: 0.2s ease-out;
+}
+
+
+
+.navbar-nav{
+
+   gap :1rem;
+}
+
+/* .ben{
+  background-image: (rgba(0,0,0,0,0.5),rgba(0,0,0,0,0.1));
+} */
+.available_categories
+{ 
+  background-color: white;
+  padding:0.5rem;
+}
+
+.footer_section{
+  background-color:#232F3E !important;
+  color: #DDDDDD !important;
+}
+
+@media (min-width: 1013px) {
+  .sticky{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    height:4rem;
+    padding-top: 0;
+    padding-top:0;
+    z-index: 9999 !important;
+  }
+  body{
+    padding-top: 70px;
+  }
+}
+
+
+.forgot_password{
+  cursor:pointer;
+}
